@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Profile Card</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+
+        .card {
+            width: 350px;
+            padding: 35px;
+            text-align: center;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 20px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 50px;
+            background: #f0f2ff;
+            border-radius: 50%;
+        }
+
+        h1 {
+            color: #222;
+            margin-bottom: 8px;
+        }
+
+        .role {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 18px;
+        }
+
+        .description {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+        }
+
+        .skills span {
+            padding: 7px 12px;
+            color: #667eea;
+            background: #eef0ff;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+        button {
+            border: none;
+            padding: 12px 25px;
+            color: white;
+            background: #667eea;
+            border-radius: 25px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #4f63d2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <div class="profile-image">
+            👨‍💻
+        </div>
+
+        <h1>Alex Johnson</h1>
+
+        <p class="role">
+            Web Developer
+        </p>
+
+        <p class="description">
+            I love creating simple, beautiful and
+            user-friendly websites using HTML and CSS.
+        </p>
+
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+
+        <button>
+            Contact Me
+        </button>
+
+    </div>
+
+</body>
+</html>
